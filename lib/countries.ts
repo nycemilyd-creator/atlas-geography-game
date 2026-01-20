@@ -133,7 +133,198 @@ export const countries: Country[] = [
     "The maple leaf has been a Canadian symbol since the 1700s",
     "It has six time zones"
   ]
+},
+{
+  name: "Afghanistan",
+  code: "AF",
+  capital: "Kabul",
+  population: "41.1 million",
+  language: "Pashto / Dari",
+  religion: "Islam",
+  currency: "Afghani",
+  continent: "Asia",
+  silhouette: "/silhouettes/afghanistan.svg",
+  coordinates: { lat: 33.9391, lng: 67.71 },
+  facts: [
+    "Afghanistan has been inhabited for over 50,000 years",
+    "It sits at the crossroads of major ancient trade routes",
+    "The country is extremely mountainous with harsh terrain",
+    "Buzkashi is a traditional national sport played on horseback",
+    "Afghanistan was once part of the Silk Road"
+  ]
+},
+{
+  name: "Albania",
+  code: "AL",
+  capital: "Tirana",
+  population: "2.8 million",
+  language: "Albanian",
+  religion: "Islam / Christianity",
+  currency: "Lek",
+  continent: "Europe",
+  silhouette: "/silhouettes/albania.svg",
+  coordinates: { lat: 41.1533, lng: 20.1683 },
+  facts: [
+    "Albania has over 750,000 concrete bunkers built during communism",
+    "It has pristine beaches along the Adriatic and Ionian seas",
+    "Albanians nod for no and shake their head for yes",
+    "Mother Teresa was ethnically Albanian",
+    "The country was isolated for decades under a strict dictatorship"
+  ]
+},
+{
+  name: "Algeria",
+  code: "DZ",
+  capital: "Algiers",
+  population: "45.6 million",
+  language: "Arabic",
+  religion: "Islam",
+  currency: "Algerian Dinar",
+  continent: "Africa",
+  silhouette: "/silhouettes/algeria.svg",
+  coordinates: { lat: 28.0339, lng: 1.6596 },
+  facts: [
+    "Algeria is the largest country in Africa",
+    "Over 80% of Algeria is covered by the Sahara Desert",
+    "It gained independence from France in 1962",
+    "Ancient Roman ruins are scattered across the country",
+    "Algiers is known as 'Algiers the White'"
+  ]
+},
+{
+  name: "Argentina",
+  code: "AR",
+  capital: "Buenos Aires",
+  population: "46.2 million",
+  language: "Spanish",
+  religion: "Christianity",
+  currency: "Peso",
+  continent: "South America",
+  silhouette: "/silhouettes/argentina.svg",
+  coordinates: { lat: -38.4161, lng: -63.6167 },
+  facts: [
+    "Argentina is the birthplace of tango",
+    "It has the highest mountain in the Americas (Aconcagua)",
+    "The country stretches across multiple climate zones",
+    "Beef consumption is among the highest in the world",
+    "Argentina won the FIFA World Cup three times"
+  ]
+},
+{
+  name: "Armenia",
+  code: "AM",
+  capital: "Yerevan",
+  population: "2.8 million",
+  language: "Armenian",
+  religion: "Christianity",
+  currency: "Dram",
+  continent: "Asia",
+  silhouette: "/silhouettes/armenia.svg",
+  coordinates: { lat: 40.0691, lng: 45.0382 },
+  facts: [
+    "Armenia was the first country to adopt Christianity as a state religion",
+    "Mount Ararat is a national symbol but lies outside its borders",
+    "Yerevan is one of the oldest continuously inhabited cities",
+    "The Armenian alphabet has 39 unique letters",
+    "The country has a strong wine-making tradition"
+  ]
+},
+{
+  name: "Austria",
+  code: "AT",
+  capital: "Vienna",
+  population: "9.1 million",
+  language: "German",
+  religion: "Christianity",
+  currency: "Euro",
+  continent: "Europe",
+  silhouette: "/silhouettes/austria.svg",
+  coordinates: { lat: 47.5162, lng: 14.5501 },
+  facts: [
+    "Austria is home to much of the Alps mountain range",
+    "Vienna consistently ranks as one of the world's most livable cities",
+    "Mozart was born in Austria",
+    "The country has no coastline",
+    "Coffee house culture is protected by UNESCO"
+  ]
+},
+{
+  name: "Bahamas",
+  code: "BS",
+  capital: "Nassau",
+  population: "412,000",
+  language: "English",
+  religion: "Christianity",
+  currency: "Bahamian Dollar",
+  continent: "North America",
+  silhouette: "/silhouettes/bahamas.svg",
+  coordinates: { lat: 25.0343, lng: -77.3963 },
+  facts: [
+    "The Bahamas has over 700 islands",
+    "It has some of the clearest water in the world",
+    "Swimming pigs live on one of the islands",
+    "Tourism drives most of the economy",
+    "The country sits on shallow coral banks"
+  ]
+},
+{
+  name: "Belgium",
+  code: "BE",
+  capital: "Brussels",
+  population: "11.7 million",
+  language: "Dutch / French / German",
+  religion: "Christianity",
+  currency: "Euro",
+  continent: "Europe",
+  silhouette: "/silhouettes/belgium.svg",
+  coordinates: { lat: 50.5039, lng: 4.4699 },
+  facts: [
+    "Belgium is famous for chocolate and waffles",
+    "It hosts the headquarters of the European Union",
+    "The country has three official languages",
+    "Belgium produces over 1,500 types of beer",
+    "French fries likely originated here"
+  ]
+},
+{
+  name: "Bolivia",
+  code: "BO",
+  capital: "Sucre",
+  population: "12.3 million",
+  language: "Spanish",
+  religion: "Christianity",
+  currency: "Boliviano",
+  continent: "South America",
+  silhouette: "/silhouettes/bolivia.svg",
+  coordinates: { lat: -16.2902, lng: -63.5887 },
+  facts: [
+    "Bolivia has two capital cities",
+    "La Paz is the highest administrative capital in the world",
+    "The Salar de Uyuni is the world's largest salt flat",
+    "Over 30 indigenous languages are spoken",
+    "The country has no coastline"
+  ]
+},
+{
+  name: "Botswana",
+  code: "BW",
+  capital: "Gaborone",
+  population: "2.6 million",
+  language: "English",
+  religion: "Christianity",
+  currency: "Pula",
+  continent: "Africa",
+  silhouette: "/silhouettes/botswana.svg",
+  coordinates: { lat: -22.3285, lng: 24.6849 },
+  facts: [
+    "Botswana has one of the world's largest elephant populations",
+    "The Okavango Delta floods inland instead of reaching the sea",
+    "It is one of Africa’s most stable democracies",
+    "Much of the country is covered by the Kalahari Desert",
+    "Diamonds drive much of the economy"
+  ]
 }
+
 
 ]
 
