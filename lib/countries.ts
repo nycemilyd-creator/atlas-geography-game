@@ -323,7 +323,560 @@ export const countries: Country[] = [
     "Much of the country is covered by the Kalahari Desert",
     "Diamonds drive much of the economy"
   ]
+},
+{
+  name: "Belarus",
+  code: "BY",
+  capital: "Minsk",
+  population: "9.2 million",
+  language: "Belarusian / Russian",
+  religion: "Christianity",
+  currency: "Belarusian Ruble",
+  continent: "Europe",
+  silhouette: "/silhouettes/belarus.svg",
+  coordinates: { lat: 53.7098, lng: 27.9534 },
+  facts: [
+    "Belarus has more than 11,000 lakes",
+    "Nearly 40% of the country is forested",
+    "Minsk was almost completely rebuilt after WWII",
+    "It has one of the lowest population densities in Europe",
+    "Bison are a national symbol"
+  ]
+},
+{
+  name: "Belize",
+  code: "BZ",
+  capital: "Belmopan",
+  population: "420,000",
+  language: "English",
+  religion: "Christianity",
+  currency: "Belize Dollar",
+  continent: "North America",
+  silhouette: "/silhouettes/belize.svg",
+  coordinates: { lat: 17.1899, lng: -88.4976 },
+  facts: [
+    "Belize is the only Central American country with English as its official language",
+    "It has the second-largest barrier reef in the world",
+    "More than 40% of the land is protected",
+    "Ancient Mayan ruins are found throughout the country",
+    "Jaguars are protected by law"
+  ]
+},
+{
+  name: "Benin",
+  code: "BJ",
+  capital: "Porto-Novo",
+  population: "13.3 million",
+  language: "French",
+  religion: "Christianity / Islam",
+  currency: "West African CFA Franc",
+  continent: "Africa",
+  silhouette: "/silhouettes/benin.svg",
+  coordinates: { lat: 9.3077, lng: 2.3158 },
+  facts: [
+    "Benin is the birthplace of the Vodun religion",
+    "The Dahomey Kingdom once dominated the region",
+    "It has a large stilt village called Ganvié",
+    "Porto-Novo is the official capital, but Cotonou is the largest city",
+    "It was formerly called Dahomey"
+  ]
+},
+{
+  name: "Bhutan",
+  code: "BT",
+  capital: "Thimphu",
+  population: "780,000",
+  language: "Dzongkha",
+  religion: "Buddhism",
+  currency: "Ngultrum",
+  continent: "Asia",
+  silhouette: "/silhouettes/bhutan.svg",
+  coordinates: { lat: 27.5142, lng: 90.4336 },
+  facts: [
+    "Bhutan measures progress using Gross National Happiness",
+    "It is one of the world’s most environmentally friendly countries",
+    "Television was only introduced in 1999",
+    "The country has no traffic lights",
+    "Traditional dress is required in public buildings"
+  ]
+},
+{
+  name: "Bosnia and Herzegovina",
+  code: "BA",
+  capital: "Sarajevo",
+  population: "3.2 million",
+  language: "Bosnian / Serbian / Croatian",
+  religion: "Islam / Christianity",
+  currency: "Convertible Mark",
+  continent: "Europe",
+  silhouette: "/silhouettes/bosnia-and-herzegovina.svg",
+  coordinates: { lat: 43.9159, lng: 17.6791 },
+  facts: [
+    "Sarajevo hosted the 1984 Winter Olympics",
+    "The country has a very small coastline",
+    "It is one of the most culturally diverse countries in the Balkans",
+    "The Latin Bridge is linked to the start of World War I",
+    "Coffee culture is central to daily life"
+  ]
+},
+{
+  name: "Brunei",
+  code: "BN",
+  capital: "Bandar Seri Begawan",
+  population: "450,000",
+  language: "Malay",
+  religion: "Islam",
+  currency: "Brunei Dollar",
+  continent: "Asia",
+  silhouette: "/silhouettes/brunei.svg",
+  coordinates: { lat: 4.5353, lng: 114.7277 },
+  facts: [
+    "Brunei is one of the richest countries per capita",
+    "Oil and gas dominate the economy",
+    "The Sultan lives in one of the world’s largest palaces",
+    "There is no income tax",
+    "Alcohol sales are banned"
+  ]
+},
+{
+  name: "Bulgaria",
+  code: "BG",
+  capital: "Sofia",
+  population: "6.4 million",
+  language: "Bulgarian",
+  religion: "Christianity",
+  currency: "Lev",
+  continent: "Europe",
+  silhouette: "/silhouettes/bulgaria.svg",
+  coordinates: { lat: 42.7339, lng: 25.4858 },
+  facts: [
+    "Bulgaria is one of the oldest countries in Europe",
+    "It uses the Cyrillic alphabet",
+    "Rose oil production is world-famous",
+    "The country has over 600 mineral springs",
+    "Yogurt originated here"
+  ]
+},
+{
+  name: "Burkina Faso",
+  code: "BF",
+  capital: "Ouagadougou",
+  population: "23.2 million",
+  language: "French",
+  religion: "Islam / Christianity",
+  currency: "West African CFA Franc",
+  continent: "Africa",
+  silhouette: "/silhouettes/burkina-faso.svg",
+  coordinates: { lat: 12.2383, lng: -1.5616 },
+  facts: [
+    "The name means 'Land of Honest People'",
+    "It hosts Africa’s largest film festival",
+    "The country is landlocked",
+    "Gold is a major export",
+    "Music and dance are central to culture"
+  ]
+},
+{
+  name: "Burundi",
+  code: "BI",
+  capital: "Gitega",
+  population: "13 million",
+  language: "Kirundi / French",
+  religion: "Christianity",
+  currency: "Burundian Franc",
+  continent: "Africa",
+  silhouette: "/silhouettes/burundi.svg",
+  coordinates: { lat: -3.3731, lng: 29.9189 },
+  facts: [
+    "Burundi is one of the smallest countries in Africa",
+    "It lies along Lake Tanganyika",
+    "Drumming is a national tradition",
+    "It is one of the most densely populated countries",
+    "Coffee is the main export"
+  ]
+},
+{
+  name: "Cambodia",
+  code: "KH",
+  capital: "Phnom Penh",
+  population: "17 million",
+  language: "Khmer",
+  religion: "Buddhism",
+  currency: "Riel",
+  continent: "Asia",
+  silhouette: "/silhouettes/cambodia.svg",
+  coordinates: { lat: 12.5657, lng: 104.991 },
+  facts: [
+    "Angkor Wat is the largest religious monument in the world",
+    "The country has a tragic recent history under the Khmer Rouge",
+    "The Tonlé Sap River reverses direction seasonally",
+    "Rice is a staple food",
+    "The flag features a building"
+  ]
+},
+{
+  name: "Cameroon",
+  code: "CM",
+  capital: "Yaoundé",
+  population: "28 million",
+  language: "French / English",
+  religion: "Christianity",
+  currency: "Central African CFA Franc",
+  continent: "Africa",
+  silhouette: "/silhouettes/cameroon.svg",
+  coordinates: { lat: 7.3697, lng: 12.3547 },
+  facts: [
+    "Cameroon is called 'Africa in Miniature'",
+    "It has beaches, rainforests, deserts, and mountains",
+    "Mount Cameroon is an active volcano",
+    "Over 250 languages are spoken",
+    "Football is extremely popular"
+  ]
+},
+{
+  name: "Canada",
+  code: "CA",
+  capital: "Ottawa",
+  population: "40 million",
+  language: "English / French",
+  religion: "Christianity",
+  currency: "Canadian Dollar",
+  continent: "North America",
+  silhouette: "/silhouettes/canada.svg",
+  coordinates: { lat: 56.1304, lng: -106.3468 },
+  facts: [
+    "Canada has the longest coastline in the world",
+    "Over half the country is covered by forest",
+    "It has more lakes than the rest of the world combined",
+    "The maple leaf is a national symbol",
+    "It experiences some of the coldest winters"
+  ]
+},
+{
+  name: "Chad",
+  code: "TD",
+  capital: "N'Djamena",
+  population: "18 million",
+  language: "French / Arabic",
+  religion: "Islam / Christianity",
+  currency: "Central African CFA Franc",
+  continent: "Africa",
+  silhouette: "/silhouettes/chad.svg",
+  coordinates: { lat: 15.4542, lng: 18.7322 },
+  facts: [
+    "Chad has no coastline",
+    "Lake Chad has shrunk dramatically over decades",
+    "It is one of the hottest countries on Earth",
+    "Over 200 ethnic groups live there",
+    "Nomadic lifestyles are common"
+  ]
+},
+{
+  name: "Chile",
+  code: "CL",
+  capital: "Santiago",
+  population: "19.6 million",
+  language: "Spanish",
+  religion: "Christianity",
+  currency: "Chilean Peso",
+  continent: "South America",
+  silhouette: "/silhouettes/chile.svg",
+  coordinates: { lat: -35.6751, lng: -71.543 },
+  facts: [
+    "Chile is one of the longest north–south countries",
+    "It spans deserts, glaciers, and islands",
+    "Easter Island belongs to Chile",
+    "It is one of South America’s most stable economies",
+    "Wine production is world-renowned"
+  ]
+},
+{
+  name: "China",
+  code: "CN",
+  capital: "Beijing",
+  population: "1.41 billion",
+  language: "Mandarin",
+  religion: "Buddhism / Taoism / Folk Religions",
+  currency: "Yuan",
+  continent: "Asia",
+  silhouette: "/silhouettes/china.svg",
+  coordinates: { lat: 35.8617, lng: 104.1954 },
+  facts: [
+    "China is the most populous country in the world",
+    "The Great Wall stretches over 13,000 miles",
+    "Paper, gunpowder, and printing were invented here",
+    "China spans five time zones but uses only one",
+    "It has the world’s largest high-speed rail network"
+  ]
+},
+{
+  name: "Colombia",
+  code: "CO",
+  capital: "Bogotá",
+  population: "52 million",
+  language: "Spanish",
+  religion: "Christianity",
+  currency: "Colombian Peso",
+  continent: "South America",
+  silhouette: "/silhouettes/colombia.svg",
+  coordinates: { lat: 4.5709, lng: -74.2973 },
+  facts: [
+    "Colombia produces some of the world’s best coffee",
+    "It is the only South American country with Caribbean and Pacific coasts",
+    "Bogotá is one of the highest capital cities in the world",
+    "The country is megadiverse",
+    "Yellow, blue, and red appear on the flag"
+  ]
+},
+{
+  name: "Comoros",
+  code: "KM",
+  capital: "Moroni",
+  population: "850,000",
+  language: "Comorian / French / Arabic",
+  religion: "Islam",
+  currency: "Comorian Franc",
+  continent: "Africa",
+  silhouette: "/silhouettes/comoros.svg",
+  coordinates: { lat: -11.875, lng: 43.8722 },
+  facts: [
+    "Comoros is an island nation in the Indian Ocean",
+    "It lies between Madagascar and mainland Africa",
+    "Volcano Mount Karthala is still active",
+    "Fishing is vital to the economy",
+    "It is one of Africa’s smallest countries"
+  ]
+},
+{
+  name: "Congo",
+  code: "CG",
+  capital: "Brazzaville",
+  population: "5.8 million",
+  language: "French",
+  religion: "Christianity",
+  currency: "Central African CFA Franc",
+  continent: "Africa",
+  silhouette: "/silhouettes/congo.svg",
+  coordinates: { lat: -0.228, lng: 15.8277 },
+  facts: [
+    "The Congo River is the second longest in Africa",
+    "Brazzaville lies directly across from Kinshasa",
+    "Rainforests cover most of the country",
+    "It is rich in oil and timber",
+    "Wildlife includes gorillas and forest elephants"
+  ]
+},
+{
+  name: "Costa Rica",
+  code: "CR",
+  capital: "San José",
+  population: "5.2 million",
+  language: "Spanish",
+  religion: "Christianity",
+  currency: "Costa Rican Colón",
+  continent: "North America",
+  silhouette: "/silhouettes/costa-rica.svg",
+  coordinates: { lat: 9.7489, lng: -83.7534 },
+  facts: [
+    "Costa Rica has no standing army",
+    "Over 25% of the country is protected land",
+    "It produces renewable energy almost entirely",
+    "Biodiversity is extremely high",
+    "Sloths are a national symbol"
+  ]
+},
+{
+  name: "Croatia",
+  code: "HR",
+  capital: "Zagreb",
+  population: "3.9 million",
+  language: "Croatian",
+  religion: "Christianity",
+  currency: "Euro",
+  continent: "Europe",
+  silhouette: "/silhouettes/croatia.svg",
+  coordinates: { lat: 45.1, lng: 15.2 },
+  facts: [
+    "Croatia has over 1,000 islands",
+    "The necktie originated here",
+    "Dubrovnik was a filming location for Game of Thrones",
+    "It has a long Adriatic coastline",
+    "Tourism is a major industry"
+  ]
+},
+{
+  name: "Cuba",
+  code: "CU",
+  capital: "Havana",
+  population: "11.2 million",
+  language: "Spanish",
+  religion: "Christianity",
+  currency: "Cuban Peso",
+  continent: "North America",
+  silhouette: "/silhouettes/cuba.svg",
+  coordinates: { lat: 21.5218, lng: -77.7812 },
+  facts: [
+    "Cuba is the largest island in the Caribbean",
+    "Classic American cars are still common",
+    "Cigars are world-famous",
+    "Salsa music is deeply rooted in culture",
+    "Healthcare and education are state-run"
+  ]
+},
+{
+  name: "Cyprus",
+  code: "CY",
+  capital: "Nicosia",
+  population: "1.3 million",
+  language: "Greek / Turkish",
+  religion: "Christianity / Islam",
+  currency: "Euro",
+  continent: "Europe",
+  silhouette: "/silhouettes/cyprus.svg",
+  coordinates: { lat: 35.1264, lng: 33.4299 },
+  facts: [
+    "Cyprus is divided into two regions",
+    "Nicosia is the world’s last divided capital",
+    "It is associated with the myth of Aphrodite",
+    "The island has over 300 days of sunshine",
+    "Halloumi cheese originates here"
+  ]
+},
+{
+  name: "Czech Republic",
+  code: "CZ",
+  capital: "Prague",
+  population: "10.7 million",
+  language: "Czech",
+  religion: "Secular",
+  currency: "Czech Koruna",
+  continent: "Europe",
+  silhouette: "/silhouettes/czech-republic.svg",
+  coordinates: { lat: 49.8175, lng: 15.473 },
+  facts: [
+    "Prague is nicknamed the City of a Hundred Spires",
+    "Beer consumption per capita is the highest in the world",
+    "The country has thousands of castles",
+    "It was once part of Czechoslovakia",
+    "The Velvet Revolution was peaceful"
+  ]
+},
+{
+  name: "Denmark",
+  code: "DK",
+  capital: "Copenhagen",
+  population: "5.9 million",
+  language: "Danish",
+  religion: "Christianity",
+  currency: "Danish Krone",
+  continent: "Europe",
+  silhouette: "/silhouettes/denmark.svg",
+  coordinates: { lat: 56.2639, lng: 9.5018 },
+  facts: [
+    "Denmark consistently ranks among the happiest countries",
+    "Copenhagen is one of the world’s most bike-friendly cities",
+    "LEGO originated here",
+    "The country includes Greenland",
+    "Wind power supplies much of its energy"
+  ]
+},
+{
+  name: "Djibouti",
+  code: "DJ",
+  capital: "Djibouti",
+  population: "1.1 million",
+  language: "French / Arabic",
+  religion: "Islam",
+  currency: "Djiboutian Franc",
+  continent: "Africa",
+  silhouette: "/silhouettes/djibouti.svg",
+  coordinates: { lat: 11.8251, lng: 42.5903 },
+  facts: [
+    "Djibouti lies at a major global shipping route",
+    "Lake Assal is one of the saltiest lakes on Earth",
+    "It hosts several foreign military bases",
+    "Much of the land is volcanic",
+    "The climate is extremely hot"
+  ]
+},
+{
+  name: "Dominican Republic",
+  code: "DO",
+  capital: "Santo Domingo",
+  population: "11.3 million",
+  language: "Spanish",
+  religion: "Christianity",
+  currency: "Dominican Peso",
+  continent: "North America",
+  silhouette: "/silhouettes/dominican-republic.svg",
+  coordinates: { lat: 18.7357, lng: -70.1627 },
+  facts: [
+    "It shares the island of Hispaniola with Haiti",
+    "Santo Domingo is the oldest European city in the Americas",
+    "Merengue music originated here",
+    "Tourism drives the economy",
+    "Baseball is extremely popular"
+  ]
+},
+{
+  name: "Ecuador",
+  code: "EC",
+  capital: "Quito",
+  population: "18 million",
+  language: "Spanish",
+  religion: "Christianity",
+  currency: "US Dollar",
+  continent: "South America",
+  silhouette: "/silhouettes/ecuador.svg",
+  coordinates: { lat: -1.8312, lng: -78.1834 },
+  facts: [
+    "The equator runs through the country",
+    "The Galápagos Islands belong to Ecuador",
+    "Quito is one of the highest capitals in the world",
+    "Biodiversity is extremely high",
+    "It uses the US dollar as currency"
+  ]
+},
+{
+  name: "Egypt",
+  code: "EG",
+  capital: "Cairo",
+  population: "112 million",
+  language: "Arabic",
+  religion: "Islam / Christianity",
+  currency: "Egyptian Pound",
+  continent: "Africa",
+  silhouette: "/silhouettes/egypt.svg",
+  coordinates: { lat: 26.8206, lng: 30.8025 },
+  facts: [
+    "Ancient pyramids are over 4,500 years old",
+    "The Nile is one of the longest rivers in the world",
+    "Cairo is Africa’s largest city",
+    "Hieroglyphics were an early writing system",
+    "Ancient Egypt shaped modern civilization"
+  ]
+},
+{
+  name: "El Salvador",
+  code: "SV",
+  capital: "San Salvador",
+  population: "6.4 million",
+  language: "Spanish",
+  religion: "Christianity",
+  currency: "US Dollar",
+  continent: "North America",
+  silhouette: "/silhouettes/el-salvador.svg",
+  coordinates: { lat: 13.7942, lng: -88.8965 },
+  facts: [
+    "El Salvador is the smallest country in Central America",
+    "It has over 20 volcanoes",
+    "Bitcoin is legal tender",
+    "Surfing is world-class",
+    "Coffee is a major export"
+  ]
 }
+
+
 
 
 ]

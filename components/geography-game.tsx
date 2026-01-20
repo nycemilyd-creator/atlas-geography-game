@@ -123,10 +123,12 @@ export function GeographyGame() {
 
   const getGuessColor = (distance: number, isCorrect: boolean) => {
     if (isCorrect) return "bg-lime-400"
-    if (distance < 500) return "bg-lime-400"
-    if (distance < 1500) return "bg-yellow-400"
-    if (distance < 3000) return "bg-orange-400"
-    return "bg-red-400"
+    if (distance < 200) return "bg-lime-300"
+    if (distance < 750) return "bg-lime-200"
+    if (distance < 2000) return "bg-yellow-200"
+    if (distance < 4000) return "bg-red-300"
+    if (distance < 6000) return "bg-red-400"
+    return "bg-red-500"
   }
 
   const playAgain = () => {
@@ -140,21 +142,25 @@ export function GeographyGame() {
 
   // Generate shareable result text (similar to Wordle)
   const generateShareText = (): string => {
-    const getColorSquare = (distance: number, isCorrect: boolean): string => {
-      if (isCorrect) return "🟩"
-      const maxDistance = 12500
-      const ratio = Math.min(distance / maxDistance, 1)
-      //if (ratio <= 0.05) return "🟨"
-      //if (ratio <= 0.25) return "🟧"
-      //if (ratio <= 0.40) return "🟥"
-      return "🟨"
-    }
+  const formatMiles = (distance: number): string =>
+    `${Math.round(distance).toLocaleString()} mi`
 
-    const squares = guesses.map((g) => getColorSquare(g.distance, g.isCorrect)).join("")
-    const result = gameWon ? `${guesses.length}/6` : "X/6"
-    
-    return `Atlas ${result}\n\n${squares}\n\nPlay at atlas-game.vercel.app`
-  }
+  const lines = guesses.map((g) => {
+    if (g.isCorrect) {
+      return "🟩 Correct!"
+    }
+    return `🟨 ${formatMiles(g.distance)}`
+  })
+
+  const result = gameWon ? `${guesses.length}/6` : "X/6"
+
+  return `Atlas ${result}
+
+${lines.join("\n")}
+
+Play at atlas-game.vercel.app`
+}
+
 
   const shareResults = async () => {
     const text = generateShareText()
