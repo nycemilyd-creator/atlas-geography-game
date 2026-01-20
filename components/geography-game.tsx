@@ -147,7 +147,7 @@ export function GeographyGame() {
       //if (ratio <= 0.05) return "🟨"
       //if (ratio <= 0.25) return "🟧"
       //if (ratio <= 0.40) return "🟥"
-      return "🟥"
+      return "🟨"
     }
 
     const squares = guesses.map((g) => getColorSquare(g.distance, g.isCorrect)).join("")
