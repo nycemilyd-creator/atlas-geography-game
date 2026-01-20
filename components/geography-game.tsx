@@ -144,9 +144,9 @@ export function GeographyGame() {
       if (isCorrect) return "🟩"
       const maxDistance = 12500
       const ratio = Math.min(distance / maxDistance, 1)
-      if (ratio <= 0.15) return "🟩"
-      if (ratio <= 0.35) return "🟨"
-      if (ratio <= 0.65) return "🟧"
+      //if (ratio <= 0.05) return "🟨"
+      //if (ratio <= 0.25) return "🟧"
+      //if (ratio <= 0.40) return "🟥"
       return "🟥"
     }
 
