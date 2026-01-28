@@ -123,8 +123,8 @@ export function GeographyGame() {
 
   const getGuessColor = (distance: number, isCorrect: boolean) => {
     if (isCorrect) return "bg-lime-400"
-    if (distance < 200) return "bg-lime-300"
-    if (distance < 750) return "bg-lime-200"
+    if (distance < 500) return "bg-lime-300"
+    if (distance < 1000) return "bg-lime-200"
     if (distance < 2000) return "bg-yellow-200"
     if (distance < 4000) return "bg-red-300"
     if (distance < 6000) return "bg-red-400"
@@ -319,7 +319,7 @@ Play at atlas-game.vercel.app`
       </div>
 
       {/* Fun Facts Card - Only shown after winning */}
-      {gameWon && (
+      {gameOver && (
         <Card className="max-w-md mx-auto bg-white/10 border-white/20 text-white animate-in fade-in slide-in-from-bottom-4 duration-500">
           <CardHeader className="pb-2">
             <CardTitle className="flex items-center gap-2 text-xl">
